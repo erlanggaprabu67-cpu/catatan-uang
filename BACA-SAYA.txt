@@ -1,0 +1,31 @@
+CATATAN UANG - PAKET APLIKASI (PWA)
+
+Isi folder ini (semua file harus diunggah bersama, jangan dipisah):
+  index.html, manifest.json, sw.js, icon-192.png, icon-512.png
+
+CARA PASANG DI HP (pakai hosting gratis, pilih salah satu)
+
+A. Netlify Drop (paling mudah, tanpa akun rumit)
+   1. Ekstrak file zip ini di laptop sampai jadi satu folder.
+   2. Buka app.netlify.com/drop, lalu tarik folder tersebut ke halamannya.
+   3. Kamu mendapat alamat web. Buka alamat itu di Chrome HP.
+
+B. GitHub Pages
+   1. Buat repositori publik di GitHub, unggah kelima file di atas.
+   2. Settings > Pages > pilih branch main, folder root, lalu Save.
+   3. Buka alamat yang diberikan di Chrome HP.
+
+MEMASANG DI LAYAR UTAMA
+  Android (Chrome): menu titik tiga > "Instal aplikasi" atau "Tambahkan ke layar utama".
+  iPhone (Safari): tombol Bagikan > "Tambahkan ke Layar Utama".
+Setelah terpasang, aplikasi bisa dibuka dari ikon dan tetap jalan tanpa internet.
+
+PENTING
+- Data tersimpan di HP/browser itu saja. Tidak ada sinkronisasi antar perangkat.
+- Unduh cadangan lewat Pengaturan (ikon roda gigi) > "Ekspor cadangan" secara berkala (misalnya tiap akhir bulan).
+- Untuk pindah HP atau memulihkan data: pasang aplikasi, lalu "Impor cadangan".
+- Jangan membersihkan data situs/cache browser sebelum membuat cadangan.
+- Kalau nanti file diperbarui, ubah angka versi di sw.js (catatan-uang-v3 jadi v4)
+  agar HP mengambil versi baru.
+- Masukan dan saran (Pengaturan) dikirim langsung ke email pengembang lewat Formspree.
+  Bila tidak ada internet atau pengiriman gagal, aplikasi membuka aplikasi email sebagai cadangan.
